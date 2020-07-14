@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Covid-19</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="css/vendor/all.min.css">
+        <link rel="stylesheet" href="css/vendor/animate.css">
+        <link rel="stylesheet" href="css/main_ltr.css">
+        <link rel="stylesheet" href="css/main_rtl.css">
+    </head>
+    <body>
+        <header class="header-section wow  d-lg-block d-none">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="header__logo">
+                       <a class="navbar-brand" href="#"><img src="images/header-img.png" class="w-100"></a>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+                      <ul class="navbar-nav header__menu">
+                        <li class="nav-item ">
+                          <a class="nav-link active" href="#">Home <span> <i class="fas fa-chevron-down"></i></span>
+                            <span class="sr-only">(current)</span></a>
+                          <ul class="home-dropdown">
+                            <li><a href="#">Home Style One</a></li>
+                            <li><a href="#">Home Style two</a></li>
+                            <li><a href="#">Home Style three <span>new</span></a></li>
+                            <li><a href="#">Home Style four <span>new</span></a></li>
+                            <li><a href="#">Home Style five <span>new</span></a></li>
+                            <li><a href="#">Home Style six <span>new</span></a></li>
+                            <li><a href="#">Home Style seven</a></li>
+                            <li><a href="#">Our Page</a></li>
+                            <li><a href="#">Box Layout</a></li>
+                            <li><a href="#">Rtl Layout</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Pages <span> <i class="fas fa-chevron-down"></i></span></a>
+                          <ul class="page-dropdown">
+                            <li>
+                              <a href="#">About Page <i class="fas fa-angle-right" style="margin-left: 77px;"></i></a>
+                              <ul class="page-dropdown__child">
+                                <li><a href="#">About Style 1</a></li>
+                                <li><a href="#">About Style 2</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#">Faq</a></li>
+                            <li><a href="#">Outbreak</a></li>
+                            <li><a href="#">ComingSoon</a></li>
+                            <li><a href="#">404 Page</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Prevention</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Blog <span><i class="fas fa-chevron-down"></i></span></a>
+                          <ul class="blog-dropdown">
+                            <li><a href="#">Blog Style 1</a></li>
+                            <li><a href="#">Blog Style 2</a></li>
+                            <li><a href="#">Blog Style 3</a></li>
+                            <li><a href="#">Blog Single</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+                            <ul class="shop-dropdown">
+                              <li><a href="#">Products Page</a></li>
+                              <li><a href="#">Product Single</a></li>
+                              <li><a href="#">Cart Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <button class="btn  my-2 my-sm-0 header__btn" type="submit">ARE YOU SICK</button>
+                      </form>
+                      
+                    </div>
+                  
+                  </nav>
+
+            </div>
+
+        </header>
+        <!-------------------------------------------------header of large screen------------------------------>
+        <header class="mobile-header d-lg-none d-block">
+          <nav>
+            <div class="mobile__logo">
+              <a class="navbar-brand" href="#"><img src="images/header-md.png" class="w-100"></a>
+            </div>
+            <div class="mobile__button">
+              <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="quit">
+                  <span><i class="fas fa-times"></i></span>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <div class="mobile__dropdown d-lg-none d-block">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link active  mobile__home" href="#">Home <span> <i class="fas fa-chevron-down"></i></span>
+                <span class="sr-only">(current)</span></a>
+              <ul class="mobile__home-dropdown">
+                <li><a href="#">Home Style One</a></li>
+                <li><a href="#">Home Style two</a></li>
+                <li><a href="#">Home Style three <span>new</span></a></li>
+                <li><a href="#">Home Style four <span>new</span></a></li>
+                <li><a href="#">Home Style five <span>new</span></a></li>
+                <li><a href="#">Home Style six <span>new</span></a></li>
+                <li><a href="#">Home Style seven</a></li>
+                <li><a href="#">Our Page</a></li>
+                <li><a href="#">Box Layout</a></li>
+                <li><a href="#">Rtl Layout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mobile__page" href="#">Pages <span> <i class="fas fa-chevron-down"></i></span></a>
+              <ul class="mobile__page-dropdown">
+                <li>
+                  <a href="#" class="about__page">About Page <i class="fas fa-angle-right" style="margin-left: 77px;"></i></a>
+                  <ul class="mobile__page-dropdown__child">
+                    <li><a href="#">About Style 1</a></li>
+                    <li><a href="#">About Style 2</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Faq</a></li>
+                <li><a href="#">Outbreak</a></li>
+                <li><a href="#">ComingSoon</a></li>
+                <li><a href="#">404 Page</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Prevention</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link mobile__blog" href="#">Blog <span><i class="fas fa-chevron-down"></i></span></a>
+              <ul class="mobile__blog-dropdown">
+                <li><a href="#">Blog Style 1</a></li>
+                <li><a href="#">Blog Style 2</a></li>
+                <li><a href="#">Blog Style 3</a></li>
+                <li><a href="#">Blog Single</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link mobile__shop" href="#">Shop <span><i class="fas fa-chevron-down"></i></span></a>
+                <ul class="mobile__shop-dropdown">
+                  <li><a href="#">Products Page</a></li>
+                  <li><a href="#">Product Single</a></li>
+                  <li><a href="#">Cart Page</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <!-------------------------------------------The End Of mobile Header------------------------------------------>
+        <div class="banner-section">
+            <div class="banner__area">
+              <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="banner__content">
+                          <h1>COVID-19 Tracker</h1>
+                          <h4>Tatal Confirmed Corona Cases</h4>
+                          <h2 class="counter">960708</h2>
+                          <ul>
+                            <li>Active cases <span class="counter">799571</span></li>
+                            <li>Recovered cases <span class="counter">302826</span></li>
+                            <li>Deaths <span class="counter">52558</span></li>
+                          </ul>
+                          <button class="banner__btn">MEET THE DOCTOR</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="banner__img">
+                          <img src="images/01.png" class="w-100">
+                        </div>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!---------------------------------------------the end of banner-------------------------------------->
+        <!-----------------------------------------------section of virus spread------------------------------->
+        <div class="virus-spread">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 wow fadeInUp">
+                <img src="images/virus_spread.png" class="w-100 virus-spread__img">
+              </div>
+              <div class="col-lg-6 wow fadeInUp">
+                <div class="virus-spread__content">
+                  <span>How Virus Spread</span>
+                  <h3>How Contagion Coronavirus</h3>
+                  <p>Don’t get shirty with mein owtto doing with me arse down the problems have it car boot happy 
+                    days no biggie bevvy only awesome quid I,m goods info my theme flat the little some days</p>
+                  <div class="content__text w-100">
+                    <div class="w-100">
+                      <div class="caard">
+                        <div class="card__img ">
+                          <img src="images/01.jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Human Contact</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic 
+                            hence.</p>
+                        </div>
+                      </div>
+                      <div class="caard">
+                        <div class="card__img ">
+                          <img src="images/02.jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Air Transmission</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                             hence.</p>
+                        </div>
+                      </div>
+                      <div class="caard">
+                        <div class="card__img">
+                          <img src="images/03.jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Contaminated Objects</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic 
+                            hence.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------the end of spread----------------------------------->
+        <div class="Symptoms">
+          <diV class="container">
+            <div class="Symptoms__text wow fadeInUp">
+              <h2>Corona Virus Symptoms</h2>
+              <p>Dynamically formulate fully tested catalysts 
+                for change via focused methods of empowerment Assertively extend alternative synergy 
+                and extensive web services.</p>
+            </div>
+            <div class="Symptoms__content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="caard  caard-bg wow fadeInUp">
+                  <div class="card__img">
+                    <img src="images/01(3).jpg">
+                  </div>
+                  <div class="card__text">
+                    <h3>Coughing And Sneezing</h3>
+                    <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                       hence monthly sales.</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caard caard-bg wow fadeInUp">
+                  <div class="card__img ">
+                    <img src="images/02(1).jpg">
+                  </div>
+                  <div class="card__text">
+                    <h3>Hot Fever</h3>
+                    <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                       hence monthly sales.</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="caard  caard-bg wow fadeInUp">
+                  <div class="card__img">
+                    <img src="images/03(1).jpg">
+                  </div>
+                  <div class="card__text">
+                    <h3>Strong Headacke</h3>
+                    <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                       hence monthly sales.</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caard  caard-bg wow fadeInUp">
+                  <div class="card__img">
+                    <img src="images/04.jpg">
+                  </div>
+                  <div class="card__text">
+                    <h3>Shortness Of Breath</h3>
+                    <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                       hence monthly sales.</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="caard caard-bg wow fadeInUp">
+                  <div class="card__img">
+                    <img src="images/05.jpg">
+                  </div>
+                  <div class="card__text">
+                    <h3>Confusion</h3>
+                    <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                       hence monthly sales.</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="caard caard-bg wow fadeInUp">
+                  <div class="card__img ">
+                    <img src="images/06.jpg">
+                  </div>
+                  <div class="card__text">
+                    <h3>Sore Throat</h3>
+                    <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                       hence monthly sales.</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </diV>
+        </div>
+        <!---------------------------------------------virus-spread------------------------------------------------------>
+        <div class="virus-spread">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 wow fadeInUp order-lg-2">
+                <img src="images/02.png" class="w-100 virus-spread__img">
+              </div>
+              <div class="col-lg-6 wow fadeInUp order-lg-1">
+                <div class="virus-spread__content">
+                  <span>About (2020-nCoV)</span>
+                  <h3>Prevention Coronavirus</h3>
+                  <p>Don’t get shirty with mein owtto doing with me arse down the problems have it car boot happy 
+                    days no biggie bevvy only awesome quid I,m goods info my theme flat the lttle rotter cheeky
+                    boot happy days</p>
+                  <div class="content__text w-100">
+                    <div class="w-100">
+                      <div class="caard">
+                        <div class="card__img ">
+                          <img src="images/04(1).jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Wash Your Hands For 20sec</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic 
+                            hence monthly sales.</p>
+                        </div>
+                      </div>
+                      <div class="caard">
+                        <div class="card__img ">
+                          <img src="images/05(1).jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>cover Nose and Mouth When Sneezing</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                             hence monthly sales.</p>
+                        </div>
+                      </div>
+                      <div class="caard">
+                        <div class="card__img">
+                          <img src="images/06(1).jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Wear A Mask If Available</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic 
+                            hence monthly sales.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-----------------------------------------------best-doctor--------------------------------------------------------------->
+        <div class="best-doctor">
+          <div class="container">
+            <div class="best-doctor__text wow fadeInUp">
+              <h1>Meet Our Best Doctors</h1>
+              <p>Dynamically formulate fully tested catalysts for change via 
+                focused methods of empowerment Assertively extend alternative synergy and 
+                extensive web services.</p>
+            </div>
+            <div class="row">
+              <div class="col-xl-4 col-md-6 wow fadeInUp">
+                <div class="best-doctor__card">
+                  <div class="card__inner">
+                  <div class="card__img">
+                    <img src="images/01(4).jpg">
+                  </div>
+                  <div class="card__body">
+                    <h3>Dorothy M. Nickell</h3>
+                    <span>Throat Specialist</span>
+                    <p>Proce Aran Manu Proucs Rahe Conen Cuve Manu Produ Rahe Cuvaes Mana
+                      The Conen Testin Motin Was Procedur</p>
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <span>+880 1234 567 890</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-envelope"></i></span>
+                        <span>d.m.nickell@gmail.com</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+              <div class="col-xl-4 col-md-6 wow fadeInUp" >
+                <div class="best-doctor__card"> 
+                  <div class="card__inner">
+                  <div class="card__img">
+                    <img src="images/02(2).jpg">
+                  </div>
+                  <div class="card__body">
+                    <h3>Dorothy M. Nickell</h3>
+                    <span>Throat Specialist</span>
+                    <p>Proce Aran Manu Proucs Rahe Conen Cuve Manu Produ Rahe Cuvaes Mana
+                      The Conen Testin Motin Was Procedur</p>
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <span>+880 1234 567 890</span>
+                      </li>
+                      <li>
+                        <span><i class="fas fa-envelope"></i></span>
+                        <span>d.m.nickell@gmail.com</span>
+                      </li>
+                    </ul>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+              <div class="col-xl-4 col-md-6 m-auto wow fadeInUp" >
+                <div class="best-doctor__card">    
+                  <div class="card__inner">
+                  <div class="card__img">
+                    <img src="images/03(2).jpg">
+                  </div>
+                  <div class="card__body">
+                    <h3>Dorothy M. Nickell</h3>
+                    <span>Throat Specialist</span>
+                    <p>Proce Aran Manu Proucs Rahe Conen Cuve Manu Produ Rahe Cuvaes Mana
+                      The Conen Testin Motin Was Procedur</p>
+                    <ul>
+                      <li>
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <span>+880 1234 567 890</span>
+                      </li>
+                      <li>
+                      <span><i class="fas fa-envelope"></i></span>
+                        <span>d.m.nickell@gmail.com</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-------------------------------------------end of best doctor--------------------------------------------->
+        <div class="wash-hands">
+          <div class="container">
+            <div class="wash-hands__text wow fadeInUp">
+              <h3>How to Wash Your Hands</h3>
+              <p>Dynamically formulate fully tested catalysts for change 
+                via focused methods of empowerment Assertively extend alternative 
+                synergy and extensive web services.</p>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>1</span>
+                  <div class="content__img"><img src="images/01(5).jpg"></div>
+                  <div class="content__text"><h6>Wet Hands</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>2</span>
+                  <div class="content__img"><img src="images/02(3).jpg"></div>
+                  <div class="content__text"><h6>Apply Soap</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>3</span>
+                  <div class="content__img"><img src="images/03(3).jpg"></div>
+                  <div class="content__text"><h6>Rub Hands Palm to palm</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>4</span>
+                  <div class="content__img"><img src="images/04(2).jpg"></div>
+                  <div class="content__text"><h6>Lather The Back of Both Hands</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>5</span>
+                  <div class="content__img"><img src="images/05(2).jpg"></div>
+                  <div class="content__text"><h6>Scrub Between Your Fingers</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>6</span>
+                  <div class="content__img"><img src="images/06(2).jpg"></div>
+                  <div class="content__text"><h6>Rub The Back of Fingers on The Opposing Palm</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>7</span>
+                  <div class="content__img"><img src="images/07.jpg"></div>
+                  <div class="content__text"><h6>Clean Thumbs</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>8</span>
+                  <div class="content__img"><img src="images/08.jpg"></div>
+                  <div class="content__text"><h6>Wash Fingernails And Fingertips</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>9</span>
+                  <div class="content__img"><img src="images/09.jpg"></div>
+                  <div class="content__text"><h6>Rinse Hands</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>10</span>
+                  <div class="content__img"><img src="images/10.jpg"></div>
+                  <div class="content__text"><h6>Dry with a Single Use Towel</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>11</span>
+                  <div class="content__img"><img src="images/11.jpg"></div>
+                  <div class="content__text"><h6>Use The Towel to Rurn off The Foucet</h6></div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp">
+                <div class="wash-hands__content">
+                  <span>12</span>
+                  <div class="content__img"><img src="images/12.jpg"></div>
+                  <div class="content__text"><h6>Your Hands Are Clean</h6></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--------------------------------------end of wash hands--------------------------------------------------->
+        <div class="prevention">
+          <diV class="container">
+            <div class="prevention__text wow fadeInUp">
+              <h2>Prevention Coronavirus Covid-19</h2>
+              <p>Dynamically formulate fully tested catalysts 
+                for change via focused methods of empowerment Assertively extend alternative synergy 
+                and extensive web services.</p>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="Prevention__do">
+                  <h3 class="text-center">What you should do</h3>
+                  <div class="col-12">
+                    <div class="caard  caard-bg wow fadeInUp">
+                      <div class="card__img">
+                        <img src="images/01(6).jpg">
+                      </div>
+                      <div class="card__text">
+                        <h3>Wash your hands sanitizer</h3>
+                        <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                           hence monthly sales.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-12">
+                    <div class="caard  caard-bg wow fadeInUp">
+                      <div class="card__img">
+                        <img src="images/02(4).jpg">
+                      </div>
+                      <div class="card__text">
+                        <h3>Ware a face mask outside</h3>
+                        <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                           hence monthly sales.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-12">
+                    <div class="caard  caard-bg wow fadeInUp">
+                      <div class="card__img">
+                        <img src="images/03(4).jpg">
+                      </div>
+                      <div class="card__text">
+                        <h3>Cover your cough tissue paper</h3>
+                        <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                           hence monthly sales.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-12">
+                    <div class="caard  caard-bg wow fadeInUp">
+                      <div class="card__img">
+                        <img src="images/04(3).jpg">
+                      </div>
+                      <div class="card__text">
+                        <h3>Check your body regulerly</h3>
+                        <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                           hence monthly sales.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="Prevention__avoid">
+                    <h3 class="text-center">What you should avoid</h3>
+                    <div class="col-12">
+                      <div class="caard  caard-bg card-red wow fadeInUp">
+                        <div class="card__img">
+                          <img src="images/05(3).jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Avoid contact with sick people</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                             hence monthly sales.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-12">
+                      <div class="caard  caard-bg card-red wow fadeInUp">
+                        <div class="card__img">
+                          <img src="images/06(3).jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Avoid contact animals</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                             hence monthly sales.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-12">
+                      <div class="caard  caard-bg card-red wow fadeInUp">
+                        <div class="card__img">
+                          <img src="images/07(1).jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Avoid crowded places</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                             hence monthly sales.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-12">
+                      <div class="caard  caard-bg  card-red wow fadeInUp">
+                        <div class="card__img">
+                          <img src="images/08(1).jpg">
+                        </div>
+                        <div class="card__text">
+                          <h3>Contaminated objects</h3>
+                          <p>Our comprehensive Online Marketing strategy will boost your website trafic
+                             hence monthly sales.</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+
+                  </div>
+                </div>
+                </div>
+                </diV>
+              </div>
+
+                
+        <!----------------------------------------end of Prevention----------------------------------->
+        <!------------------------------------------the blog---------------------------------------------->
+        <div class="blog">
+          <div class="container">
+            <div class="blog__text wow fadeInUp">
+              <h1>Meet Our Best Doctors</h1>
+              <p>Dynamically formulate fully tested catalysts for change via 
+                focused methods of empowerment Assertively extend alternative synergy and 
+                extensive web services.</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-6 wow fadeInUp">
+                <div class="blog__card">
+                  <div class="card__inner">
+                  <div class="card__img">
+                    <img src="images/01(7).jpg">
+                  </div>
+                  <div class="card__body">
+                    <a href="#">Conulting Reporting Qouncil Arei Not Could More...</a>
+                    <span><i class="fas fa-calendar-alt"></i> July 12, 2020</span>
+                    <span><i class="fas fa-user-alt"></i> Somrat Islam</span>
+                    <p>Pluoresntly customize pranci an plcentered customer service 
+                      anding strategic amerials Interacvely cordinate performe</p>
+                  </div>
+                  <div class="card__link">
+                    <a href="#">Read More <span><i class="fas fa-angle-right"></i>
+                      <i class="fas fa-angle-right"></i></span></a>
+                    <a href="#"><i class="far fa-comment-alt"></i><span>3</span></a>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 wow fadeInUp">
+                <div class="blog__card">
+                  <div class="card__inner">
+                  <div class="card__img">
+                    <img src="images/02(5).jpg">
+                  </div>
+                  <div class="card__body">
+                    <a href="#">Financial Reporting Qouncil What Could More...</a>
+                    <span><i class="fas fa-calendar-alt"></i> July 12, 2020</span>
+                    <span><i class="fas fa-user-alt"></i> Somrat Islam</span>
+                    <p>Pluoresntly customize pranci an plcentered customer service 
+                      anding strategic amerials Interacvely cordinate performe</p>
+                  </div>
+                  <div class="card__link">
+                    <a href="#">Read More <span><i class="fas fa-angle-right"></i>
+                      <i class="fas fa-angle-right"></i></span></a>
+                    <a href="#"><i class="far fa-comment-alt"></i><span>3</span></a>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 m-auto wow fadeInUp">
+                <div class="blog__card">
+                  <div class="card__inner">
+                  <div class="card__img">
+                    <img src="images/03(5).jpg">
+                  </div>
+                  <div class="card__body">
+                    <a href="#">Conulting Reporting Qouncil Arei Not Could More...</a>
+                    <span><i class="fas fa-calendar-alt"></i> July 12, 2020</span>
+                    <span><i class="fas fa-user-alt"></i> Somrat Islam</span>
+                    <p>Pluoresntly customize pranci an plcentered customer service 
+                      anding strategic amerials Interacvely cordinate performe</p>
+                  </div>
+                  <div class="card__link">
+                    <a href="#">Read More <span><i class="fas fa-angle-right"></i>
+                      <i class="fas fa-angle-right"></i></span></a>
+                    <a href="#"><i class="far fa-comment-alt"></i><span>3</span></a>
+                  </div>
+                </div>
+
+                </div>
+              </div>
+          </div>
+        </div>
+        </div>
+        <!--------------------------------------the end of blog------------------------------->
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="section-about">
+                  <h6>About Covid-19</h6>
+                  <ul>
+                    <li>We believe in Simple Creative and Flexible Design Standards.</li>
+                    <li><b>Headquarters:</b><br>
+                      795 Folsom Ave, Suite 600 San Francisco, CA 94107</li>
+                    <li><b>Phone:</b> (91) 8547 632521</li>
+                    <li><b>Email:</b> info@covid-19.com</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="section-about">
+                  <h6>Navigate</h6>
+                  <ul>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Advertisers</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Developers</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Resources</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Company</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Connect</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="section-about">
+                  <h6>Social Contact</h6>
+                  <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> YouTube</a></li>
+                    <li><a href="#"><i class="fab fa-xing"></i> Xing</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="section-about">
+                  <h6>About Covid-19</h6>
+                  <ul>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Advertiser Agreement</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Acceptable Use Policy</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Privacy Policy</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Technology Privacy</a></li>
+                    <li><a href="#"><i class="fas fa-caret-right"></i> Developer Agreement</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__end">
+            <h6>© 2020 All Rights Reserved. Designed by <span>CodexCoder</span></h6>
+          </div>
+        </footer>
+        <a href="#" class="scrollToTop">
+          <i class="fas fa-arrow-up"></i>
+          <span class="pluse_1"></span>
+          <span class="pluse_2"></span>
+        </a>
+
+        <script src="scripts/vendor/jquery-3.3.1.min.js"></script>
+        <script src="scripts/vendor/popper.min.js"></script>
+        <script src="scripts/vendor/all.min.js"></script>
+        <script src="scripts/vendor/bootstrap.min.js"></script>
+        <script src="scripts/vendor/jquery.min.js"></script>
+        <script src="scripts/vendor/jquery.waypoints.min.js"></script>
+        <script src="scripts/vendor/jquery.counterup.min.js"></script>
+        <script src="scripts/vendor/wow.min.js"></script>
+        <script src="scripts/main.js"></script>
+        <script>
+              new WOW().init();
+        </script>
+    </body>
+</html>
